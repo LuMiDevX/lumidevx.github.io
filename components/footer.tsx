@@ -21,7 +21,7 @@ export function Footer() {
     },
     {
       icon: Linkedin,
-      href: "https://linkedin.com/in/luis-miguel-gonzalez-dominguez",
+      href: "https://www.linkedin.com/in/luis-miguel-gonzalez-dominguez",
       label: "LinkedIn",
     },
     {
@@ -111,7 +111,7 @@ export function Footer() {
                 {t("footer.contact")}
               </h4>
               <div className="space-y-2 text-sm">
-                <p className="text-muted-foreground">Las Tunas, Cuba</p>
+                <p className="text-muted-foreground">Montevideo, Uruguay</p>
                 <a
                   href="mailto:f3nrir.v2@gmail.com"
                   className="block text-muted-foreground hover:text-primary transition-colors"
@@ -119,12 +119,12 @@ export function Footer() {
                   f3nrir.v2@gmail.com
                 </a>
                 <a
-                  href="https://wa.me/5355886613"
+                  href="https://wa.me/59895457869"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-muted-foreground hover:text-primary transition-colors"
                 >
-                  +53 55886613
+                  +598 95 457 869
                 </a>
               </div>
             </div>

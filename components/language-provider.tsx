@@ -28,25 +28,39 @@ const translations = {
     "hero.title": "Desarrollador de Software",
     "hero.subtitle": "Transformando ideas en soluciones tecnológicas",
     "hero.description":
-      "Desarrollador junior apasionado por la tecnología, especializado en backend con experiencia en Python, Django y desarrollo web. Siempre dispuesto a aprender y crecer profesionalmente.",
+      "Soy un desarrollador apasionado por la tecnología, con disposición para aprender constantemente. Especializado en backend, pero capaz de trabajar en frontend. Busco oportunidades para crecer profesionalmente y expandir mis habilidades en el campo del desarrollo de software.",
     "hero.cta": "Ver mi trabajo",
     "hero.contact": "Contactar",
     "hero.download": "Descargar CV",
+    "hero.photoZoom": "Ampliar foto de perfil",
+    "hero.portfolio": "Sitio portfolio (GitHub Pages)",
     "hero.work": "Desarrollador de Software",
+    "hero.location": "Montevideo, Uruguay",
 
     // About Section
     "about.title": "Conoce mi historia",
     "about.subtitle": "Desarrollador de software con pasión por la tecnología",
     "about.description":
-      "Soy un desarrollador junior con una sólida formación en Ingeniería Informática y experiencia práctica en desarrollo backend. Mi enfoque se centra en crear soluciones eficientes y escalables, siempre buscando aprender nuevas tecnologías y mejorar mis habilidades.",
+      "Ingeniero Informático graduado en la Universidad de Las Tunas. Desarrollador de software con experiencia en e-commerce, aplicaciones web empresariales, Odoo y productos con impacto social. Me enfoco en soluciones eficientes, claras y mantenibles.",
     "about.education": "Educación",
     "about.degree": "Ingeniero Informático",
     "about.university": "Universidad de Las Tunas",
-    "about.period": "2021 - 2025 (Graduado)",
+    "about.period": "10/2021 - 07/2025",
+    "about.languages": "Idiomas",
+    "about.languages.list": "Español (nativo), inglés",
     "about.achievements": "Logros destacados",
-    "about.achievement1": "2º lugar en ICPC Caribeño (2022)",
+    "about.achievement1": "2.º lugar en ICPC Caribeño (2022) — equipo YesReturn",
     "about.achievement2": "Título de Oro y Premio al Mérito Científico",
     "about.achievement3": "Eximido de defensa de tesis por rendimiento académico",
+    "about.certifications": "Certificaciones y formación",
+    "about.cert1.title": "Ingeniero Informático",
+    "about.cert1.sub":
+      "Universidad de Las Tunas · Graduación 2025 — Título de Oro y Premio al Mérito Científico",
+    "about.cert2.title": "ICPC — Fase regional Caribe",
+    "about.cert2.sub": "2.º lugar (equipo YesReturn) · International Collegiate Programming Contest (2022)",
+    "about.cert3.title": "Formación complementaria",
+    "about.cert3.sub":
+      "Aprendizaje automático (FreeCodeCamp) y desarrollo de videojuegos con Godot — en progreso",
 
     // Skills Section
     "skills.title": "Habilidades Técnicas",
@@ -60,22 +74,34 @@ const translations = {
     "experience.title": "Experiencia Laboral",
     "experience.subtitle": "Mi trayectoria profesional",
     "experience.current": "Actual",
-    "experience.company": "ASI S.U.R.L.",
-    "experience.position": "Desarrollador de Software",
-    "experience.period": "Enero 2024 - Presente",
-    "experience.description":
-      "Desarrollo y mantenimiento de aplicaciones web, participación en decisiones de infraestructura tecnológica, y creación de módulos personalizados para Odoo.",
-    "experience.achievements": "Logros principales:",
-    "experience.achievement1": "Desarrollo del sitio web oficial de la empresa",
-    "experience.achievement2": "Creación de aplicaciones móviles y módulos Odoo",
-    "experience.achievement3": "Participación en proyectos para clientes externos",
-    "experience.achievement4": "Mejora de eficiencia y seguridad del sistema informático",
     "experience.responsibilities": "Logros principales:",
-    "experience.resp1": "Desarrollo del sitio web oficial de la empresa",
-    "experience.resp2": "Creación de aplicaciones móviles y módulos Odoo",
-    "experience.resp3": "Participación en proyectos para clientes externos",
-    "experience.resp4": "Mejora de eficiencia y seguridad del sistema informático",
-    "experience.technologies": "Tecnologías Utilizadas",
+    "experience.technologies": "Tecnologías utilizadas",
+    "experience.yafex.company": "Yafex S.U.R.L.",
+    "experience.yafex.position": "Desarrollador de software",
+    "experience.yafex.period": "ago 2025 – mar 2026",
+    "experience.yafex.location": "Uruguay",
+    "experience.yafex.description":
+      "Soporte y desarrollo para plataformas e-commerce de clientes, sistemas internos de gestión y un proyecto con enfoque social junto a la SEGIB.",
+    "experience.yafex.bullet1":
+      "Soporte y desarrollo para comercios electrónicos (eltintero.yafexsrl.com, erp.prisma.art, avalon.yafexsrl.com), optimizando sus negocios.",
+    "experience.yafex.bullet2":
+      "Mejora de la productividad interna con un sistema de gestión de nómina (app.yafexsrl.com).",
+    "experience.yafex.bullet3":
+      "Desarrollo de cognitia.yafexsrl.com: entorno para una red de emprendedoras a nivel país en Cuba, con acompañamiento de expertos de la SEGIB.",
+    "experience.asi.company": "ASI S.U.R.L.",
+    "experience.asi.position": "Desarrollador de software",
+    "experience.asi.period": "ene 2024 – mar 2026",
+    "experience.asi.location": "Cuba",
+    "experience.asi.description":
+      "Desarrollo y mantenimiento de aplicaciones web, participación en decisiones de infraestructura y creación de módulos Odoo y apps móviles para la empresa y clientes externos.",
+    "experience.asi.bullet1":
+      "Participación activa en decisiones sobre infraestructuras tecnológicas y en la mejora de eficiencia y seguridad del sistema informático.",
+    "experience.asi.bullet2":
+      "Desarrollo y mantenimiento del sitio web oficial (antasi.asisurl.cu), optimizando rendimiento y accesibilidad.",
+    "experience.asi.bullet3":
+      "Aplicaciones móviles y módulos Odoo que mejoraron la productividad interna y la eficiencia operativa.",
+    "experience.asi.bullet4":
+      "Proyectos para clientes: Yumani S.U.R.L. (yumani.asisurl.cu) y Martha y Maximo S.U.R.L. (mym.asisurl.cu).",
 
     // Projects Section
     "projects.title": "Proyectos Destacados",
@@ -85,7 +111,7 @@ const translations = {
     "projects.viewProject": "Ver sitio",
     "projects.project1.title": "Red Social Empresarial",
     "projects.project1.description":
-      "Plataforma de colaboración interna para empresas, desarrollada con Django. Facilita la comunicación y colaboración en proyectos de innovación.",
+      "Red social interna desarrollada para una empresa (09/2024 – 02/2025), en equipo. Apliqué Django en backend y entendí cómo las organizaciones se benefician de la colaboración interna. Código en github.com/Asthart/comunidad.",
     "projects.project1.tech": "Django, Python, HTML/CSS, JavaScript",
     "projects.project1.category": "Red Social",
     "projects.project2.title": "Sistema de Gestión Web",
@@ -119,8 +145,9 @@ const translations = {
     "learning.filosophy": "Filosofía de Aprendizaje",
     "learning.filosophy.description":
       `"La tecnología evoluciona constantemente, y como desarrollador, creo firmemente en la importancia
-                    del aprendizaje continuo.Cada nuevo lenguaje, framework o herramienta es una oportunidad para
+                    del aprendizaje continuo. Cada nuevo lenguaje, framework o herramienta es una oportunidad para
                     crecer profesionalmente y aportar más valor a los proyectos en los que trabajo."`,
+    "learning.sourceLabel": "Fuente:",
 
     // Contact Section
     "contact.title": "Contacto",
@@ -149,7 +176,8 @@ const translations = {
     // Footer
     "footer.rights": "Todos los derechos reservados",
     "footer.built": "Construido con",
-    "footer.description": "Desarrollador apasionado por crear soluciones tecnológicas innovadoras. Especializado en backend con experiencia en desarrollo web y sistemas empresariales.",
+    "footer.description":
+      "Desarrollador de software enfocado en backend y aplicaciones web. Experiencia en e-commerce, Odoo y proyectos con impacto social. Basado en Montevideo, Uruguay.",
     "footer.quickLinks": "Navegación",
     "footer.contact": "Contacto",
     "footer.madeWith": "Hecho con",
@@ -174,25 +202,38 @@ const translations = {
     "hero.title": "Software Developer",
     "hero.subtitle": "Transforming ideas into tech solutions",
     "hero.description":
-      "Junior developer passionate about technology, specialized in backend with experience in Python, Django and web development. Always eager to learn and grow professionally.",
+      "I am a developer passionate about technology, with a strong willingness to learn continuously. Specialized in backend development, but also capable of working on frontend projects. I am seeking opportunities to grow professionally and expand my skills in the field of software development.",
     "hero.cta": "View my work",
     "hero.contact": "Contact me",
     "hero.download": "Download CV",
+    "hero.photoZoom": "Enlarge profile photo",
+    "hero.portfolio": "Portfolio site (GitHub Pages)",
     "hero.work": "Software Developer",
+    "hero.location": "Montevideo, Uruguay",
 
     // About Section
     "about.title": "Get to know my story",
     "about.subtitle": "Software developer with passion for technology",
     "about.description":
-      "I'm a junior developer with solid training in Computer Engineering and practical experience in backend development. My focus is on creating efficient and scalable solutions, always seeking to learn new technologies and improve my skills.",
+      "Computer Engineer graduated from the University of Las Tunas. Software developer with experience in e-commerce, enterprise web applications, Odoo, and products with social impact. I focus on efficient, clear, and maintainable solutions.",
     "about.education": "Education",
     "about.degree": "Computer Engineer",
     "about.university": "University of Las Tunas",
-    "about.period": "2021 - 2025 (Graduated)",
+    "about.period": "10/2021 - 07/2025",
+    "about.languages": "Languages",
+    "about.languages.list": "Spanish (native), English",
     "about.achievements": "Key achievements",
-    "about.achievement1": "2nd place in Caribbean ICPC (2022)",
+    "about.achievement1": "2nd place in Caribbean ICPC (2022) — YesReturn team",
     "about.achievement2": "Gold Title and Scientific Merit Award",
     "about.achievement3": "Exempted from thesis defense due to academic performance",
+    "about.certifications": "Certifications and training",
+    "about.cert1.title": "Computer Engineer",
+    "about.cert1.sub":
+      "University of Las Tunas · Class of 2025 — Gold degree and Scientific Merit Award",
+    "about.cert2.title": "ICPC — Caribbean regional stage",
+    "about.cert2.sub": "2nd place (YesReturn team) · International Collegiate Programming Contest (2022)",
+    "about.cert3.title": "Complementary training",
+    "about.cert3.sub": "Machine learning (freeCodeCamp) and game development with Godot — in progress",
 
     // Skills Section
     "skills.title": "Technical Skills",
@@ -206,22 +247,34 @@ const translations = {
     "experience.title": "Work Experience",
     "experience.subtitle": "My professional journey",
     "experience.current": "Current",
-    "experience.company": "ASI S.U.R.L.",
-    "experience.position": "Software Developer",
-    "experience.period": "January 2024 - Present",
-    "experience.description":
-      "Development and maintenance of web applications, participation in technological infrastructure decisions, and creation of custom Odoo modules.",
-    "experience.achievements": "Main achievements:",
-    "experience.achievement1": "Development of the company's official website",
-    "experience.achievement2": "Creation of mobile applications and Odoo modules",
-    "experience.achievement3": "Participation in projects for external clients",
-    "experience.achievement4": "Improvement of efficiency and security of the IT system",
-    "experience.responsibilities": "Main achievements:",
-    "experience.resp1": "Development of the company's official website",
-    "experience.resp2": "Creation of mobile applications and Odoo modules",
-    "experience.resp3": "Participation in projects for external clients",
-    "experience.resp4": "Improvement of efficiency and security of the IT system",
-    "experience.technologies": "Technologies Used",
+    "experience.responsibilities": "Key achievements:",
+    "experience.technologies": "Technologies used",
+    "experience.yafex.company": "Yafex S.U.R.L.",
+    "experience.yafex.position": "Software Developer",
+    "experience.yafex.period": "Aug 2025 – Mar 2026",
+    "experience.yafex.location": "Uruguay",
+    "experience.yafex.description":
+      "Support and development for client e-commerce platforms, internal management systems, and a social-impact project with SEGIB.",
+    "experience.yafex.bullet1":
+      "Support and development for e-commerce sites (eltintero.yafexsrl.com, erp.prisma.art, avalon.yafexsrl.com), optimizing clients’ businesses.",
+    "experience.yafex.bullet2":
+      "Improved internal productivity by building a payroll management system (app.yafexsrl.com).",
+    "experience.yafex.bullet3":
+      "Built cognitia.yafexsrl.com: a digital environment for a nationwide network of women entrepreneurs in Cuba, with guidance from SEGIB experts.",
+    "experience.asi.company": "ASI S.U.R.L.",
+    "experience.asi.position": "Software Developer",
+    "experience.asi.period": "Jan 2024 – Mar 2026",
+    "experience.asi.location": "Cuba",
+    "experience.asi.description":
+      "Development and maintenance of web applications, infrastructure decisions, and Odoo modules and mobile apps for the company and external clients.",
+    "experience.asi.bullet1":
+      "Active participation in technology infrastructure decisions and improvements to efficiency and system security.",
+    "experience.asi.bullet2":
+      "Developed and maintained the official website (antasi.asisurl.cu), improving performance and accessibility.",
+    "experience.asi.bullet3":
+      "Mobile applications and Odoo modules that boosted internal productivity and operational efficiency.",
+    "experience.asi.bullet4":
+      "Client projects for Yumani S.U.R.L. (yumani.asisurl.cu) and Martha y Maximo S.U.R.L. (mym.asisurl.cu).",
 
     // Projects Section
     "projects.title": "Featured Projects",
@@ -231,7 +284,7 @@ const translations = {
     "projects.viewProject": "View site",
     "projects.project1.title": "Enterprise Social Network",
     "projects.project1.description":
-      "Internal collaboration platform for companies, developed with Django. Facilitates communication and collaboration on innovation projects.",
+      "Internal social network built for a company (Sep 2024 – Feb 2025), in a team. Applied Django on the backend and learned how organizations benefit from internal collaboration. Code at github.com/Asthart/comunidad.",
     "projects.project1.tech": "Django, Python, HTML/CSS, JavaScript",
     "projects.project1.category": "Social Network",
     "projects.project2.title": "Web Management System",
@@ -268,6 +321,7 @@ const translations = {
     "learning.filosophy.description":
       `"Technology is constantly evolving, and as a developer, I firmly believe in the importance of continuous learning.
                     Every new language, framework, or tool is an opportunity to grow professionally and add more value to the projects I work on."`,
+    "learning.sourceLabel": "Source:",
 
     // Contact Section
     "contact.title": "Contact",
@@ -296,7 +350,8 @@ const translations = {
     // Footer
     "footer.rights": "All rights reserved",
     "footer.built": "Built with",
-    "footer.description": "Passionate developer passionate about creating innovative technological solutions. Specialized in backend with experience in web development and business systems.",
+    "footer.description":
+      "Software developer focused on backend and web applications. Experience in e-commerce, Odoo, and social-impact projects. Based in Montevideo, Uruguay.",
     "footer.quickLinks": "Navigation",
     "footer.contact": "Contact",
     "footer.madeWith": "Made with",

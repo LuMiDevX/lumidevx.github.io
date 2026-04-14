@@ -13,14 +13,14 @@ export function Skills() {
       icon: Code,
       color: "text-primary",
       bgColor: "bg-primary/10",
-      skills: ["Python", "Django", "REST APIs", "Flask", "Node.js", "Next.js", "Java", "Kotlin"],
+      skills: ["Python", "Django", "REST APIs", "Flask", "Node.js", "Java", "Kotlin"],
     },
     {
       title: t("skills.frontend"),
       icon: Globe,
       color: "text-accent",
       bgColor: "bg-accent/10",
-      skills: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "TypeScript", "Responsive Design", "XML"],
+      skills: ["HTML5", "CSS3", "JavaScript", "React", "Bootstrap", "TypeScript", "Responsive Design", "XML"],
     },
     {
       title: t("skills.tools"),
@@ -34,7 +34,7 @@ export function Skills() {
       icon: Database,
       color: "text-blue-500",
       bgColor: "bg-blue-500/10",
-      skills: ["PostgreSQL", "MySQL", "PostgreSQL", "SQLite", "Database Design"],
+      skills: ["PostgreSQL", "MySQL", "SQLite", "SQL", "Database Design"],
     },
   ]
 

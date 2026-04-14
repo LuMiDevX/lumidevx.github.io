@@ -1,12 +1,19 @@
 "use client"
 
+import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
-import { ArrowDown, Download, Mail, Github, Linkedin } from "lucide-react"
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
+import { ArrowDown, Download, Mail, Github, Linkedin, Globe } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
+import { useIsMobile } from "@/hooks/use-mobile"
+import { cvHrefForLanguage } from "@/lib/cv"
 
 export function Hero() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
+  const cvHref = cvHrefForLanguage(language)
+  const isMobile = useIsMobile()
+  const [photoZoomOpen, setPhotoZoomOpen] = useState(false)
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
@@ -83,12 +90,26 @@ export function Hero() {
                 className="w-10 h-10 p-0 hover:bg-primary/10 hover:text-primary"
               >
                 <a
-                  href="https://linkedin.com/in/luis-miguel-gonzalez-dominguez"
+                  href="https://www.linkedin.com/in/luis-miguel-gonzalez-dominguez"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="h-5 w-5" />
+                </a>
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                asChild
+                className="w-10 h-10 p-0 hover:bg-primary/10 hover:text-primary"
+              >
+                <a href="https://f3-nrir.github.io"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={t("hero.portfolio")}
+                >
+                  <Globe className="h-5 w-5" />
                 </a>
               </Button>
               <Button
@@ -108,17 +129,46 @@ export function Hero() {
           <div className="flex justify-center lg:justify-end">
             <Card className="p-8 max-w-sm w-full bg-card/50 backdrop-blur-sm border-border/50 shadow-xl">
               <div className="text-center space-y-6">
-                {/* Profile Image Placeholder */}
+                {/* Profile image — tap to zoom on mobile */}
                 <div className="w-32 h-32 mx-auto rounded-full bg-gradient-to-br from-primary to-accent p-1 shadow-lg">
-                  <div className="w-full h-full rounded-full overflow-hidden bg-background">
-                    <img src="/portada.png" alt="Luis Miguel González" className="w-full h-full object-cover" />
-                  </div>
+                  {isMobile ? (
+                    <button
+                      type="button"
+                      onClick={() => setPhotoZoomOpen(true)}
+                      className="w-full h-full rounded-full overflow-hidden bg-background block border-0 p-0 cursor-zoom-in active:scale-[0.98] transition-transform duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible:ring-offset-2 focus-visible:ring-offset-background"
+                      aria-label={t("hero.photoZoom")}
+                    >
+                      <img src="/portada.png" alt="" className="w-full h-full object-cover pointer-events-none" />
+                    </button>
+                  ) : (
+                    <div className="w-full h-full rounded-full overflow-hidden bg-background">
+                      <img src="/portada.png" alt="Luis Miguel González" className="w-full h-full object-cover" />
+                    </div>
+                  )}
                 </div>
+
+                <Dialog open={photoZoomOpen} onOpenChange={setPhotoZoomOpen}>
+                  <DialogContent
+                    showCloseButton
+                    className="max-w-[min(92vw,28rem)] border-0 bg-transparent p-0 shadow-none data-[state=open]:zoom-in-90 data-[state=closed]:zoom-out-90 duration-300 [&>button]:text-white [&>button]:opacity-90 [&>button]:hover:opacity-100"
+                  >
+                    <DialogTitle className="sr-only">{t("hero.photoZoom")}</DialogTitle>
+                    <div className="rounded-full p-1 bg-gradient-to-br from-primary via-accent to-primary shadow-[0_0_48px_-8px_hsl(var(--primary))] animate-in fade-in zoom-in-90 duration-300">
+                      <div className="rounded-full overflow-hidden bg-background ring-2 ring-background/80">
+                        <img
+                          src="/portada.png"
+                          alt="Luis Miguel González"
+                          className="w-full h-full object-cover aspect-square"
+                        />
+                      </div>
+                    </div>
+                  </DialogContent>
+                </Dialog>
 
                 <div className="space-y-2">
                   <h3 className="text-xl font-serif font-bold">Luis Miguel González Domínguez</h3>
                   <p className="text-primary font-medium">{t("hero.work")}</p>
-                  <p className="text-sm text-muted-foreground">Las Tunas, Cuba</p>
+                  <p className="text-sm text-muted-foreground">{t("hero.location")}</p>
                 </div>
 
                 <div className="space-y-3 text-sm">
@@ -128,7 +178,7 @@ export function Hero() {
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-muted-foreground">Phone:</span>
-                    <span className="font-medium">+53 55886613</span>
+                    <span className="font-medium">+598 95 457 869</span>
                   </div>
                 </div>
 
@@ -137,7 +187,7 @@ export function Hero() {
                   className="w-full border-primary text-primary hover:bg-primary hover:text-primary-foreground bg-transparent"
                   asChild
                 >
-                  <a href="/cv-luis-miguel-gonzalez.pdf" download>
+                  <a href={cvHref} download>
                     <Download className="mr-2 h-4 w-4" />
                     {t("hero.download")}
                   </a>

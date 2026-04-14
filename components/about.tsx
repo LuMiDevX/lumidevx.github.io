@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent } from "@/components/ui/card"
-import { GraduationCap, Award, Trophy, Calendar } from "lucide-react"
+import { GraduationCap, Award, Trophy, Calendar, BadgeCheck } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 
 export function About() {
@@ -23,6 +23,12 @@ export function About() {
       title: t("about.achievement3"),
       description: "Rendimiento académico excepcional",
     },
+  ]
+
+  const certifications = [
+    { title: t("about.cert1.title"), sub: t("about.cert1.sub") },
+    { title: t("about.cert2.title"), sub: t("about.cert2.sub") },
+    { title: t("about.cert3.title"), sub: t("about.cert3.sub") },
   ]
 
   return (
@@ -60,6 +66,10 @@ export function About() {
                           <Calendar className="h-4 w-4" />
                           {t("about.period")}
                         </div>
+                        <div className="pt-4 mt-4 border-t border-border/60">
+                          <h4 className="text-sm font-semibold text-foreground mb-1">{t("about.languages")}</h4>
+                          <p className="text-sm text-muted-foreground">{t("about.languages.list")}</p>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -85,6 +95,30 @@ export function About() {
                         <div className="flex-1">
                           <h4 className="font-semibold mb-1">{achievement.title}</h4>
                           <p className="text-sm text-muted-foreground">{achievement.description}</p>
+                        </div>
+                      </div>
+                    </CardContent>
+                  </Card>
+                ))}
+              </div>
+
+              <h3 className="text-2xl font-serif font-bold text-center lg:text-left pt-4">
+                {t("about.certifications")}
+              </h3>
+              <div className="space-y-3">
+                {certifications.map((cert, index) => (
+                  <Card
+                    key={index}
+                    className="border-primary/15 bg-card/50 backdrop-blur-sm hover:shadow-md transition-shadow duration-300"
+                  >
+                    <CardContent className="p-4 sm:p-5">
+                      <div className="flex items-start gap-3">
+                        <div className="w-9 h-9 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0">
+                          <BadgeCheck className="h-4 w-4 text-primary" />
+                        </div>
+                        <div className="flex-1 min-w-0">
+                          <h4 className="font-semibold text-sm sm:text-base mb-0.5">{cert.title}</h4>
+                          <p className="text-xs sm:text-sm text-muted-foreground leading-relaxed">{cert.sub}</p>
                         </div>
                       </div>
                     </CardContent>

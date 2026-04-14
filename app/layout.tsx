@@ -20,15 +20,16 @@ const sourceSans = Source_Sans_Pro({
 })
 
 export const metadata: Metadata = {
-  title: "Luis Miguel González - Desarrollador Backend",
+  title: "Luis Miguel González Domínguez - Desarrollador de software",
   description:
-    "Portfolio personal de Luis Miguel González Domínguez, desarrollador de software especializado en backend con experiencia en Python, Django, y tecnologías web.",
-  keywords: "desarrollador, backend, python, django, cuba, programador, software",
+    "Portfolio de Luis Miguel González Domínguez: desarrollador de software (backend, Django, e-commerce, Odoo). Montevideo, Uruguay.",
+  keywords:
+    "desarrollador, software, backend, python, django, odoo, e-commerce, uruguay, montevideo, programador",
   authors: [{ name: "Luis Miguel González Domínguez" }],
   creator: "Luis Miguel González Domínguez",
   openGraph: {
-    title: "Luis Miguel González - Desarrollador Backend",
-    description: "Portfolio personal de desarrollador de software",
+    title: "Luis Miguel González Domínguez - Desarrollador de software",
+    description: "Portfolio — desarrollo web, e-commerce y Odoo",
     url: "https://f3-nrir.github.io",
     siteName: "Luis Miguel González Portfolio",
     locale: "es_ES",

@@ -2,9 +2,10 @@
 
 import { useState, useEffect } from "react"
 import { Button } from "@/components/ui/button"
-import { Moon, Sun, Languages, Menu, X } from "lucide-react"
+import { Moon, Sun, Languages, Menu, X, Download } from "lucide-react"
 import { useTheme } from "next-themes"
 import { useLanguage } from "@/components/language-provider"
+import { cvHrefForLanguage } from "@/lib/cv"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -12,6 +13,7 @@ export function Header() {
   const [mounted, setMounted] = useState(false)
   const { theme, setTheme } = useTheme()
   const { language, setLanguage, t } = useLanguage()
+  const cvHref = cvHrefForLanguage(language)
 
   useEffect(() => {
     setMounted(true)
@@ -95,6 +97,18 @@ export function Header() {
 
           {/* Controls */}
           <div className="flex items-center space-x-2 lg:space-x-4">
+            <Button
+              variant="outline"
+              size="sm"
+              className="hidden sm:inline-flex h-9 px-3 border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground"
+              asChild
+            >
+              <a href={cvHref} download aria-label={t("hero.download")}>
+                <Download className="h-4 w-4 sm:mr-1.5" />
+                <span className="hidden md:inline text-sm font-medium">{t("hero.download")}</span>
+              </a>
+            </Button>
+
             {/* Theme Toggle */}
             <Button
               variant="ghost"
@@ -127,6 +141,17 @@ export function Header() {
               <span className="absolute -top-1 -right-1 text-xs font-bold text-accent">{language.toUpperCase()}</span>
             </Button>
 
+            <Button
+              variant="outline"
+              size="sm"
+              className="inline-flex sm:hidden h-9 w-9 p-0 border-primary/40 text-primary hover:bg-primary hover:text-primary-foreground"
+              asChild
+            >
+              <a href={cvHref} download aria-label={t("hero.download")}>
+                <Download className="h-4 w-4" />
+              </a>
+            </Button>
+
             {/* Mobile Menu Toggle */}
             <Button
               variant="ghost"
@@ -153,6 +178,15 @@ export function Header() {
                   {t(item.key)}
                 </button>
               ))}
+              <a
+                href={cvHref}
+                download
+                className="flex items-center gap-2 px-4 py-2 text-base font-medium text-primary hover:bg-primary/5 transition-colors duration-200 rounded-md"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <Download className="h-4 w-4 shrink-0" />
+                {t("hero.download")}
+              </a>
             </nav>
           </div>
         )}

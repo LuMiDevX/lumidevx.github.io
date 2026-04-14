@@ -76,10 +76,17 @@ export function Learning() {
                           <p className="text-foreground/80 text-sm leading-relaxed mb-3">{item.description}</p>
                           <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
                             <BookOpen className="h-4 w-4" />
-                            <span>Fuente: {item.source}</span>
+                            <span>
+                              {t("learning.sourceLabel")} {item.source}
+                            </span>
                             {item.link && (
                               <Button variant="ghost" size="sm" asChild className="p-1 h-auto hover:text-primary">
-                                <a href={item.link} target="_blank" rel="noopener noreferrer">
+                                <a
+                                  href={item.link}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  aria-label={item.title}
+                                >
                                   <ExternalLink className="h-3 w-3" />
                                 </a>
                               </Button>

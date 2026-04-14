@@ -15,7 +15,7 @@ export const translations = {
       greeting: "¡Hola! Soy",
       role: "Desarrollador de Software",
       description:
-        "Desarrollador junior especializado en backend con experiencia en Python, Django y tecnologías web. Apasionado por crear soluciones eficientes y escalables.",
+        "Desarrollador de software especializado en backend con experiencia en Python, Django y tecnologías web. Apasionado por crear soluciones eficientes y escalables.",
       downloadCV: "Descargar CV",
       contactMe: "Contáctame",
     },
@@ -24,7 +24,7 @@ export const translations = {
     about: {
       title: "Sobre mí",
       story:
-        "Soy un desarrollador junior apasionado por la tecnología, con disposición para aprender constantemente. Especializado en backend, pero capaz de trabajar en frontend. Busco oportunidades para crecer profesionalmente y expandir mis habilidades en el campo del desarrollo de software.",
+        "Soy desarrollador de software apasionado por la tecnología, con disposición para aprender constantemente. Especializado en backend, pero capaz de trabajar en frontend. Busco oportunidades para crecer profesionalmente y expandir mis habilidades en el campo del desarrollo de software.",
       education: "Educación",
       degree: "Ingeniero Informático",
       university: "Universidad de Las Tunas",
@@ -214,7 +214,7 @@ export const translations = {
       greeting: "Hello! I'm",
       role: "Software Developer",
       description:
-        "Junior developer specialized in backend with experience in Python, Django and web technologies. Passionate about creating efficient and scalable solutions.",
+        "Software developer specialized in backend with experience in Python, Django and web technologies. Passionate about creating efficient and scalable solutions.",
       downloadCV: "Download CV",
       contactMe: "Contact Me",
     },
@@ -223,7 +223,7 @@ export const translations = {
     about: {
       title: "About Me",
       story:
-        "I'm a junior developer passionate about technology, with a willingness to constantly learn. Specialized in backend, but capable of working on frontend. I seek opportunities to grow professionally and expand my skills in the software development field.",
+        "I'm a software developer passionate about technology, with a willingness to constantly learn. Specialized in backend, but capable of working on frontend. I seek opportunities to grow professionally and expand my skills in the software development field.",
       education: "Education",
       degree: "Computer Engineer",
       university: "University of Las Tunas",

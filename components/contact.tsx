@@ -44,14 +44,14 @@ export function Contact() {
     {
       icon: Phone,
       label: t("contact.phone"),
-      value: "+53 55886613",
-      href: "https://wa.me/5355886613",
+      value: "+598 95 457 869",
+      href: "https://wa.me/59895457869",
       color: "text-accent",
     },
     {
       icon: MapPin,
       label: t("contact.location"),
-      value: "Las Tunas, Cuba",
+      value: "Montevideo, Uruguay",
       href: null,
       color: "text-orange-500",
     },
@@ -67,7 +67,7 @@ export function Contact() {
     {
       icon: Linkedin,
       label: t("contact.linkedin"),
-      href: "https://linkedin.com/in/luis-miguel-gonzalez-dominguez",
+      href: "https://www.linkedin.com/in/luis-miguel-gonzalez-dominguez",
       color: "hover:text-blue-500",
     },
     {
