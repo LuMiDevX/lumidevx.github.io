@@ -137,10 +137,11 @@ const translations = {
       "Explorando algoritmos de aprendizaje automático y sus aplicaciones en problemas del mundo real.",
     "learning.machineLearning.progress": "En progreso",
     "learning.machineLearning.source": "Curso de FreeCodeCamp",
-    "learning.gamedev.title": "Desarrollo de Videojuegos",
-    "learning.gamedev.description": "Aprendiendo los fundamentos del desarrollo de juegos y creando juegos atractivos.",
-    "learning.gamedev.progress": "En progreso",
-    "learning.gamedev.source": "Documentación Oficial de Godot y Cursos de YouTube",
+    "learning.automatization.title": "Automatización con n8n",
+    "learning.automatization.description":
+      "Estudiando automatizaciones con n8n e inteligencia artificial para construir flujos de trabajo útiles y escalables.",
+    "learning.automatization.progress": "En progreso",
+    "learning.automatization.source": "Curso de Raiola Networks",
     "learning.hobbies": "Intereses y Hobbies",
     "learning.filosophy": "Filosofía de Aprendizaje",
     "learning.filosophy.description":
@@ -312,10 +313,11 @@ const translations = {
       "Exploring machine learning algorithms and their applications in real-world problems.",
     "learning.machineLearning.progress": "In progress",
     "learning.machineLearning.source": "FreeCodeCamp Course",
-    "learning.gamedev.title": "Game Development",
-    "learning.gamedev.description": "Learning the fundamentals of game development and creating engaging games.",
-    "learning.gamedev.progress": "In progress",
-    "learning.gamedev.source": "Official Documentation of Godot and Youtube Courses",
+    "learning.automatization.title": "Automation with n8n",
+    "learning.automatization.description":
+      "Studying automation with n8n and artificial intelligence to build useful and scalable workflows.",
+    "learning.automatization.progress": "In progress",
+    "learning.automatization.source": "Raiola Networks Course",
     "learning.hobbies": "Interests and Hobbies",
     "learning.filosophy": "Learning Philosophy",
     "learning.filosophy.description":

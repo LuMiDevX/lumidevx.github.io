@@ -30,7 +30,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Luis Miguel González Domínguez - Desarrollador de software",
     description: "Portfolio — desarrollo web, e-commerce y Odoo",
-    url: "https://f3-nrir.github.io",
+    url: "https://lumidevx.github.io",
     siteName: "Luis Miguel González Portfolio",
     locale: "es_ES",
     type: "website",

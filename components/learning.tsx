@@ -3,7 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Button } from "@/components/ui/button"
-import { Brain, Gamepad2, ExternalLink, BookOpen } from "lucide-react"
+import { Brain, Workflow, ExternalLink, BookOpen } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 
 export function Learning() {
@@ -22,15 +22,15 @@ export function Learning() {
       progress: t("learning.machineLearning.progress"),
     },
     {
-      title: t("learning.gamedev.title"),
-      description: t("learning.gamedev.description"),
-      icon: Gamepad2,
+      title: t("learning.automatization.title"),
+      description: t("learning.automatization.description"),
+      icon: Workflow,
       color: "text-blue-500",
       bgColor: "bg-blue-500/10",
-      technologies: ["C#", "Godot 4", "GDScript", "Game Design"],
-      source: t("learning.gamedev.source"),
-      link: null,
-      progress: t("learning.gamedev.progress"),
+      technologies: ["n8n", "AI Agents", "Webhooks", "APIs"],
+      source: t("learning.automatization.source"),
+      link: "https://cursos.raiola.link/cursos/curso-de-automatizaciones-con-n8n-e-inteligencia-artificial/",
+      progress: t("learning.automatization.progress"),
     },
   ]
 

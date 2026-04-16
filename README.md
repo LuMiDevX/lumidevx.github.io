@@ -25,8 +25,8 @@ Portfolio personal de Luis Miguel González Domínguez, desarrollador de softwar
 
 1. Clona el repositorio:
 \`\`\`bash
-git clone https://github.com/F3-nrir/f3-nrir.github.io.git
-cd f3-nrir.github.io
+git clone https://github.com/LuMiDevX/lumidevx.github.io.git
+cd lumidevx.github.io
 \`\`\`
 
 2. Instala las dependencias:
@@ -45,7 +45,7 @@ npm run dev
 
 ### Configuración Automática con GitHub Actions
 
-1. **Sube todos los archivos** a tu repositorio f3-nrir.github.io
+1. **Sube todos los archivos** a tu repositorio lumidevx.github.io
 
 2. **Configura GitHub Pages**:
    - Ve a **Settings > Pages** en tu repositorio
@@ -58,7 +58,7 @@ git commit -m "Deploy portfolio to GitHub Pages"
 git push origin main
 \`\`\`
 
-4. **El workflow se ejecutará automáticamente** y tu sitio estará disponible en https://f3-nrir.github.io
+4. **El workflow se ejecutará automáticamente** y tu sitio estará disponible en https://lumidevx.github.io
 
 ### Verificación del Despliegue
 
@@ -120,10 +120,10 @@ El contenido se gestiona a través del sistema de traducciones en `components/la
 
 ## 📞 Contacto
 
-- **Email**: f3nrir.v2@gmail.com
+- **Email**: lumidevx@gmail.com
 - **Teléfono**: +53 55886613
 - **LinkedIn**: [luis-miguel-gonzalez-dominguez](https://linkedin.com/in/luis-miguel-gonzalez-dominguez)
-- **GitHub**: [F3-nrir](https://github.com/F3-nrir)
+- **GitHub**: [LuMiDevX](https://github.com/LuMiDevX)
 
 ## 📄 Licencia
 

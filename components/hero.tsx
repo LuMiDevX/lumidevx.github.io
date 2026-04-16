@@ -79,7 +79,7 @@ export function Hero() {
                 asChild
                 className="w-10 h-10 p-0 hover:bg-primary/10 hover:text-primary"
               >
-                <a href="https://github.com/F3-nrir" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <a href="https://github.com/LuMiDevX" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
                   <Github className="h-5 w-5" />
                 </a>
               </Button>
@@ -104,7 +104,7 @@ export function Hero() {
                 asChild
                 className="w-10 h-10 p-0 hover:bg-primary/10 hover:text-primary"
               >
-                <a href="https://f3-nrir.github.io"
+                <a href="https://lumidevx.github.io"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={t("hero.portfolio")}
@@ -118,7 +118,7 @@ export function Hero() {
                 asChild
                 className="w-10 h-10 p-0 hover:bg-primary/10 hover:text-primary"
               >
-                <a href="mailto:f3nrir.v2@gmail.com" aria-label="Email">
+                <a href="mailto:lumidevx@gmail.com" aria-label="Email">
                   <Mail className="h-5 w-5" />
                 </a>
               </Button>
@@ -174,7 +174,7 @@ export function Hero() {
                 <div className="space-y-3 text-sm">
                   <div className="flex items-center justify-between">
                     <span className="text-muted-foreground">Email:</span>
-                    <span className="font-medium">f3nrir.v2@gmail.com</span>
+                    <span className="font-medium">lumidevx@gmail.com</span>
                   </div>
                   <div className="flex items-center justify-between">
                     <span className="text-muted-foreground">Phone:</span>

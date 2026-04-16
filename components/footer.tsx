@@ -16,7 +16,7 @@ export function Footer() {
   const socialLinks = [
     {
       icon: Github,
-      href: "https://github.com/F3-nrir",
+      href: "https://github.com/LuMiDevX",
       label: "GitHub",
     },
     {
@@ -26,7 +26,7 @@ export function Footer() {
     },
     {
       icon: Mail,
-      href: "mailto:f3nrir.v2@gmail.com",
+      href: "mailto:lumidevx@gmail.com",
       label: "Email",
     },
   ]
@@ -63,7 +63,7 @@ export function Footer() {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-lg font-serif font-bold">Luis Miguel González Domínguez</h3>
+                  <h3 className="text-lg font-serif font-bold break-words">Luis Miguel González Domínguez</h3>
                   <p className="text-sm text-muted-foreground">{t("hero.work")}</p>
                 </div>
               </div>
@@ -113,10 +113,10 @@ export function Footer() {
               <div className="space-y-2 text-sm">
                 <p className="text-muted-foreground">Montevideo, Uruguay</p>
                 <a
-                  href="mailto:f3nrir.v2@gmail.com"
+                  href="mailto:lumidevx@gmail.com"
                   className="block text-muted-foreground hover:text-primary transition-colors"
                 >
-                  f3nrir.v2@gmail.com
+                  lumidevx@gmail.com
                 </a>
                 <a
                   href="https://wa.me/59895457869"
@@ -134,13 +134,13 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-border py-6">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <div className="flex flex-wrap items-center justify-center sm:justify-start gap-2 text-sm text-muted-foreground text-center sm:text-left">
               <span>© {currentYear} Luis Miguel González Domínguez.</span>
               <span>{t("footer.rights")}</span>
             </div>
 
-            <div className="flex items-center gap-4">
-              <div className="flex items-center gap-2 text-sm text-muted-foreground">
+            <div className="flex flex-wrap items-center justify-center sm:justify-end gap-4">
+              <div className="flex flex-wrap items-center justify-center sm:justify-end gap-2 text-sm text-muted-foreground text-center sm:text-left">
                 <span>
                   {/* Added translation for made with text */}
                   {t("footer.madeWith")}

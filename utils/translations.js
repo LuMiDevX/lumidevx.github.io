@@ -128,7 +128,7 @@ export const translations = {
         progress: "En progreso",
       },
 
-      gamedev: {
+      automatization: {
         title: "Desarrollo de Videojuegos",
         description: "Aprendiendo programación de videojuegos con C# utilizando el motor Godot 4 de forma autodidacta.",
         source: "Aprendizaje autodidacta",
@@ -327,7 +327,7 @@ export const translations = {
         progress: "In progress",
       },
 
-      gamedev: {
+      automatization: {
         title: "Game Development",
         description: "Learning game programming with C# using the Godot 4 engine through self-directed study.",
         source: "Self-directed learning",

@@ -30,15 +30,15 @@ export function Contact() {
     const body = encodeURIComponent(
       `Hola Luis Miguel,\n\nNombre: ${formData.name}\nEmail: ${formData.email}\n\nMensaje:\n${formData.message}`,
     )
-    window.location.href = `mailto:f3nrir.v2@gmail.com?subject=${subject}&body=${body}`
+    window.location.href = `mailto:lumidevx@gmail.com?subject=${subject}&body=${body}`
   }
 
   const contactInfo = [
     {
       icon: Mail,
       label: t("contact.email"),
-      value: "f3nrir.v2@gmail.com",
-      href: "mailto:f3nrir.v2@gmail.com",
+      value: "lumidevx@gmail.com",
+      href: "mailto:lumidevx@gmail.com",
       color: "text-primary",
     },
     {
@@ -61,7 +61,7 @@ export function Contact() {
     {
       icon: Github,
       label: t("contact.github"),
-      href: "https://github.com/F3-nrir",
+      href: "https://github.com/LuMiDevX",
       color: "hover:text-primary",
     },
     {
@@ -79,7 +79,7 @@ export function Contact() {
     {
       icon: Mail,
       label: "Email",
-      href: "mailto:f3nrir.v2@gmail.com",
+      href: "mailto:lumidevx@gmail.com",
       color: "hover:text-accent",
     },
   ]
@@ -135,16 +135,21 @@ export function Contact() {
               {/* Social Links */}
               <div>
                 <h4 className="text-lg font-serif font-semibold mb-4">{t("contact.social.title")}</h4>
-                <div className="flex gap-4">
+                <div className="flex flex-wrap gap-3">
                   {socialLinks.map((social, index) => (
                     <Button
                       key={index}
                       variant="outline"
                       size="sm"
                       asChild
-                      className={`border-border/50 ${social.color} transition-colors`}
+                      className={`max-w-full border-border/50 ${social.color} transition-colors`}
                     >
-                      <a href={social.href} target="_blank" rel="noopener noreferrer">
+                      <a
+                        href={social.href}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="max-w-full"
+                      >
                         <social.icon className="mr-2 h-4 w-4" />
                         {social.label}
                       </a>
