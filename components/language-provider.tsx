@@ -56,11 +56,13 @@ const translations = {
     "about.cert1.title": "Ingeniero Informático",
     "about.cert1.sub":
       "Universidad de Las Tunas · Graduación 2025 — Título de Oro y Premio al Mérito Científico",
-    "about.cert2.title": "ICPC — Fase regional Caribe",
-    "about.cert2.sub": "2.º lugar (equipo YesReturn) · International Collegiate Programming Contest (2022)",
-    "about.cert3.title": "Formación complementaria",
-    "about.cert3.sub":
-      "Aprendizaje automático (FreeCodeCamp) y desarrollo de videojuegos con Godot — en progreso",
+    "about.cert2.title": "Inglés intermedio",
+    "about.cert2.sub": "Evaluaciones oficiales Duolingo English Test y EF SET",
+    "about.cert3.title": "Scientific Computing with Python",
+    "about.cert3.sub": "Certificación en Python · freeCodeCamp",
+    "about.cert4.title": "Formación complementaria",
+    "about.cert4.sub":
+      "Aprendizaje automático (freeCodeCamp) y automatización de flujos con n8n — en progreso",
 
     // Skills Section
     "skills.title": "Habilidades Técnicas",
@@ -178,7 +180,7 @@ const translations = {
     "footer.rights": "Todos los derechos reservados",
     "footer.built": "Construido con",
     "footer.description":
-      "Desarrollador de software enfocado en backend y aplicaciones web. Experiencia en e-commerce, Odoo y proyectos con impacto social. Basado en Montevideo, Uruguay.",
+      "Desarrollador de software enfocado en backend y aplicaciones web. Experiencia en e-commerce, Odoo y proyectos con impacto social. Ubicado en Montevideo, Uruguay.",
     "footer.quickLinks": "Navegación",
     "footer.contact": "Contacto",
     "footer.madeWith": "Hecho con",
@@ -231,10 +233,13 @@ const translations = {
     "about.cert1.title": "Computer Engineer",
     "about.cert1.sub":
       "University of Las Tunas · Class of 2025 — Gold degree and Scientific Merit Award",
-    "about.cert2.title": "ICPC — Caribbean regional stage",
-    "about.cert2.sub": "2nd place (YesReturn team) · International Collegiate Programming Contest (2022)",
-    "about.cert3.title": "Complementary training",
-    "about.cert3.sub": "Machine learning (freeCodeCamp) and game development with Godot — in progress",
+    "about.cert2.title": "Intermediate English",
+    "about.cert2.sub": "Duolingo English Test and EF SET official assessments",
+    "about.cert3.title": "Scientific Computing with Python",
+    "about.cert3.sub": "Python certification · freeCodeCamp",
+    "about.cert4.title": "Complementary training",
+    "about.cert4.sub":
+      "Machine learning (freeCodeCamp) and workflow automation with n8n — in progress",
 
     // Skills Section
     "skills.title": "Technical Skills",
@@ -353,7 +358,7 @@ const translations = {
     "footer.rights": "All rights reserved",
     "footer.built": "Built with",
     "footer.description":
-      "Software developer focused on backend and web applications. Experience in e-commerce, Odoo, and social-impact projects. Based in Montevideo, Uruguay.",
+      "Software developer focused on backend and web applications. Experience in e-commerce, Odoo, and social-impact projects. Located in Montevideo, Uruguay.",
     "footer.quickLinks": "Navigation",
     "footer.contact": "Contact",
     "footer.madeWith": "Made with",

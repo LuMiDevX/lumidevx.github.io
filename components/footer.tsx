@@ -59,7 +59,7 @@ export function Footer() {
                 {/* Added gradient background to profile image */}
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent p-0.5">
                   <div className="w-full h-full rounded-lg overflow-hidden bg-background">
-                    <img src="/perfil.png" alt="Luis Miguel González D." className="w-full h-full object-cover" />
+                    <img src="/logo.png" alt="Luis Miguel González D." className="w-full h-full object-cover" />
                   </div>
                 </div>
                 <div>

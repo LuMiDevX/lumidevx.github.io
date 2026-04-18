@@ -69,7 +69,7 @@ export function Header() {
               {isScrolled && (
                 <div className="w-8 h-8 rounded-full overflow-hidden bg-gradient-to-br from-primary to-accent p-0.5">
                   <div className="w-full h-full rounded-full overflow-hidden bg-background">
-                    <img src="/perfil.png" alt="Luis Miguel González D." className="w-full h-full object-cover" />
+                    <img src="/logo.png" alt="Luis Miguel González D." className="w-full h-full object-cover" />
                   </div>
                 </div>
               )}

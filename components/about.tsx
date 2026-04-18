@@ -29,6 +29,7 @@ export function About() {
     { title: t("about.cert1.title"), sub: t("about.cert1.sub") },
     { title: t("about.cert2.title"), sub: t("about.cert2.sub") },
     { title: t("about.cert3.title"), sub: t("about.cert3.sub") },
+    { title: t("about.cert4.title"), sub: t("about.cert4.sub") },
   ]
 
   return (

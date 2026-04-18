@@ -129,9 +129,10 @@ export const translations = {
       },
 
       automatization: {
-        title: "Desarrollo de Videojuegos",
-        description: "Aprendiendo programación de videojuegos con C# utilizando el motor Godot 4 de forma autodidacta.",
-        source: "Aprendizaje autodidacta",
+        title: "Automatización con n8n",
+        description:
+          "Estudiando automatizaciones con n8n e inteligencia artificial para construir flujos de trabajo útiles y escalables.",
+        source: "Curso de Raiola Networks",
         progress: "En progreso",
       },
     },
@@ -328,9 +329,10 @@ export const translations = {
       },
 
       automatization: {
-        title: "Game Development",
-        description: "Learning game programming with C# using the Godot 4 engine through self-directed study.",
-        source: "Self-directed learning",
+        title: "Automation with n8n",
+        description:
+          "Studying automations with n8n and AI to build useful, scalable workflows.",
+        source: "Raiola Networks course",
         progress: "In progress",
       },
     },
