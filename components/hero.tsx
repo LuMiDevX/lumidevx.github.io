@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog"
-import { ArrowDown, Download, Mail, Github, Linkedin, Globe } from "lucide-react"
+import { ArrowDown, Download, Mail, Github, Linkedin, Globe, Phone } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { useIsMobile } from "@/hooks/use-mobile"
 import { cvHrefForLanguage } from "@/lib/cv"
@@ -104,12 +104,12 @@ export function Hero() {
                 asChild
                 className="w-10 h-10 p-0 hover:bg-primary/10 hover:text-primary"
               >
-                <a href="https://lumidevx.github.io"
+                <a href="https://wa.me/59895457869"
                   target="_blank"
                   rel="noopener noreferrer"
                   aria-label={t("hero.portfolio")}
                 >
-                  <Globe className="h-5 w-5" />
+                  <Phone className="h-5 w-5" />
                 </a>
               </Button>
               <Button
